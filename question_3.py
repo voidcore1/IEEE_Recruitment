@@ -19,7 +19,7 @@ normalized_matrix = (matrix - min_val) / (max_val - min_val)
 print("\nNormalized Matrix (values between 0 and 1):")
 print(normalized_matrix)
 
-# Flatten and sort
+
 flattened_sorted = np.sort(matrix.flatten())
 print("\nFlattened and Sorted Array:")
 print(flattened_sorted)
