@@ -2,7 +2,6 @@ text = """Madam and her Dad went to the civic center.
 They saw a racecar and a level bridge. 
 Later, Anna read a book."""
 
-# split the para into words
 words = text.split()
 
 palindromes = []
@@ -12,6 +11,6 @@ for word in words:
     if clean_word and clean_word == clean_word[::-1]:
         palindromes.append(word.strip(".,!?"))
 
-# results
+
 print("Number of Palindromes:", len(palindromes))
 print("Palindromes:", palindromes)
